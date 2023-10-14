@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_primary"
+    tools:context=".Main.ProductCatList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:background="@color/background_primary"
+        >
+        <TextView
+            android:id="@+id/smartWatch_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Watches"
+            android:padding="8dp"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/woodenClock_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wooden Clock"
+            android:padding="8dp"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/womanFashion_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women Fashion"
+            android:padding="8dp"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/gadgets_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gadgets"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/handfree_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handfree"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/menTrouser_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men Trouser"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/rings_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rings"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/dataCable_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Cable"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/mobileAccessory_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Accessories"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/makeUp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makeup"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home and Kitchen"
+            android:textColor="@color/gray"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/gray"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

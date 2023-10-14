@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rehman.newtrends">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewTrends">
+        <activity android:name=".Order.ViewBookingDetailsActivity"></activity>
+        <activity android:name=".Chat.ChatListActivity" />
+        <activity android:name=".Chat.ChatActivity" />
+        <activity android:name=".Main.OrderActivity" />
+        <activity android:name=".Main.ManageInventoryActivity" />
+        <activity android:name=".Main.UploadProductImagesActivty" />
+        <activity android:name=".Main.ProductColorListActivity" />
+        <activity android:name=".Main.ProductCatList" />
+        <activity android:name=".Main.CreateInventoryActivity" />
+        <activity android:name=".Start.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+    </application>
+
+</manifest>

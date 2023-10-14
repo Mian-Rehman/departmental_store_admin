@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_primary"
+    tools:context=".Main.CreateInventoryActivity">
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/orange"
+        android:gravity="center|left"
+        >
+
+        <ImageView
+            android:id="@+id/back_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_back_arrow"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            app:tint="@color/white" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/back_image"
+            android:text="Create your Inventory"
+            android:layout_marginTop="2dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topLayout"
+        android:background="@color/background_primary"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEDED"
+            >
+
+            <ImageView
+                android:id="@+id/productCoverPhoto_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/product_cover_image" />
+
+            <TextView
+                android:id="@+id/text_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save products details carefully beacause customer attracts with sentence"
+                android:textSize="14sp"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:background="#FBE3D2"
+                android:layout_below="@+id/productCoverPhoto_image"
+                android:textColor="@color/orange"
+                />
+
+            <LinearLayout
+                android:id="@+id/dataField_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/text_heading"
+                android:layout_margin="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Product Category"
+                    android:layout_marginTop="20dp"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/productCategory_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_layout"
+                    android:hint="Choose Service type"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Title"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/productTitle_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:inputType="text"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_layout"
+                    android:hint="Title here.."
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="product Description"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/productDes_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:textColorHint="@color/gray"
+                    android:inputType="textLongMessage"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_layout"
+                    android:hint="Description here..."
+                    android:gravity="top"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginRight="5dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Charges RS"
+                            android:layout_marginTop="20dp"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <EditText
+                            android:id="@+id/Charges_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:padding="10dp"
+                            android:textSize="13sp"
+                            android:inputType="number"
+                            android:textColorHint="@color/gray"
+                            android:textColor="@color/black"
+                            android:background="@drawable/border_layout"
+                            android:hint="Total Charges"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Discount Charges RS"
+                            android:layout_marginTop="20dp"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <EditText
+                            android:id="@+id/ChargesDiscount_ed"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:padding="10dp"
+                            android:textSize="13sp"
+                            android:inputType="number"
+                            android:textColorHint="@color/gray"
+                            android:textColor="@color/black"
+                            android:background="@drawable/border_layout"
+                            android:hint="Discount Charges $"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Color"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/categoryColor_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:textSize="13sp"
+                    android:background="@drawable/border_layout"
+                    android:hint="choose color"
+                    />
+
+
+                <Button
+                    android:id="@+id/next_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/orange"
+                    android:textAllCaps="false"
+                    app:cornerRadius="10dp"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
